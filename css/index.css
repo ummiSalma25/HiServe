@@ -16,7 +16,7 @@
 
 
 /*navbar*/
-.navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;  }
+.navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;   background-color: white; }
 
 .nav-link {  position: relative;  color: black;  text-align: center; }
 
@@ -39,6 +39,17 @@
 .nav-link:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+.fa-bars {
+    color: black;
+}
+
+
+
+/**/
+.logo {
+    width: 182px;  height: 55px;  background-position: center;  background-size: contain;
+    background-image: url(../image/logo-black.png);  background-repeat: no-repeat;
 }
 
 
@@ -93,6 +104,11 @@
     background-color: #F0DDCF;
 }
 
+
+/*footer*/
+.footer {
+    background-color: #212529;
+}
 
 
 
@@ -152,3 +168,48 @@
         transform: translateY(0);
     }
 }
+
+
+
+
+@media (prefers-color-scheme: dark){
+    body {
+       background: #212529;    color: white;
+    }
+    .navbar {
+        background-color: #212529;
+    }
+    .nav-link, .learn-btn, .dion, a {
+        color: #fff;
+    }
+    .nav-link:hover {
+        color: #fff;
+    }
+    .miss-btn:hover {   
+        background-color: transparent;   border: 2px solid white;   color: white; 
+    }
+    .pink {
+        background-color: #212529;
+    }
+    .logo {
+        background-image: url(../image/logo-white.png);
+    }
+    .footer {
+        background-color: #000;
+    }
+    .fa-bars {
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
