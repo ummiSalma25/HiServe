@@ -20,7 +20,7 @@
 /*navbar*/
 .navbar {   font-family: 'Rubik', sans-serif; font-weight: lighter;  font-size: 16px;   }
 
-.nav-link {  position: relative;  color: black;  text-align: center; }
+.nav-link {  position: relative;  text-align: center; }
 
 .nav-link:hover {  font-weight: 400;  }
   
@@ -96,27 +96,6 @@
 
 
 
-/*Accordion*/
-.cord {   border: 1px solid black;  border-radius: 10px;  }
-
-.dion {  background-color: transparent;  color: #444;   cursor: pointer;   width: 100%;
-    text-align: left;  transition: all 0.4s;   border: none;   outline: none;
-}
-
-.active, .dion:hover {  background-color: #d3d3d3;   }
-
-.panel {  background-color: transparent;  max-height: 0;  overflow: hidden;  transition: max-height 0.2s ease-out;  }
-
-
-.dion:after {   content: '+';  font-size: 20px;  color: #019342;  float: right;  margin-left: 5px;  }
-
-.active:after {   content: '--';   font-size: 20px;   color: #019342;  }
-
-
-
-
-
-
 .fadeInLeft {
     -webkit-animation: fadeInLeft 2s both;
     -moz-animation: fadeInLeft 2s both;
@@ -174,7 +153,17 @@
 }
 
 
-
+@media (prefers-color-scheme: dark){
+    body {
+       background: #212529; 
+    }
+    a, p {
+        color: #fff;
+    }
+    h6 {
+        color: #fff;
+    }
+}
 
 
 
