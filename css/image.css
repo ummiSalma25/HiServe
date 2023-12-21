@@ -13,15 +13,8 @@
 
 .text-justify {   text-align: justify;  }
 
-a {  color: black;  }
 
 
-
-/**/
-.logo {
-    width: 182px;  height: 55px;  background-position: center;  background-size: contain;
-    background-image: url(../image/logo-black.png);  background-repeat: no-repeat;
-}
 
 /*freepik*/
 .pink {  background-color: burlywood;}
@@ -65,19 +58,6 @@ a {  color: black;  }
 }
 
 
-.fa-envelope, .fa-location-dot, .fa-phone, .fa-whatsapp, .fa-minus {
-    color: #019342;
-}
-.fa-bars {
-    color: black;
-}
-.fa-address-card, .fa-graduation-cap, .fa-school-flag, .fa-plane-departure, .fa-chalkboard-user {
-    color: #019342;
-}
-.dark {
-    background-color: #000;
-}
-
 
 
 
@@ -100,35 +80,3 @@ a {  color: black;  }
         transform: translateY(0);
     }
 }
-
-
-
-@media (prefers-color-scheme: dark){
-    body {
-       background: #212529;    color: white;
-    }
-    a {
-        color: #fff;
-    }
-    .logo {
-        background-image: url(../image/logo-white.png);
-    }
-    .fa-envelope, .fa-location-dot, .fa-phone, .fa-whatsapp, .fa-minus, .fa-bars {
-        color: white;
-    }
-    .fa-address-card, .fa-graduation-cap, .fa-school-flag, .fa-plane-departure, .fa-chalkboard-user {
-        color: #fff;
-    }
-}
- 
-
-
-
-
-
-
-
-
-
-
-
