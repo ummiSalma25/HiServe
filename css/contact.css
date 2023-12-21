@@ -11,17 +11,6 @@
 
 .text-justify {   text-align: justify;  }
 
-a {  color: black;  } 
-
-
-
-
-/**/
-.logo {
-    width: 182px;  height: 55px;  background-position: center;  background-size: contain;
-    background-image: url(../image/logo-black.png);  background-repeat: no-repeat;
-}
-
 
 /*contact us*/
 .green-texture {
@@ -82,32 +71,3 @@ a {  color: black;  }
         display: none;
     }
 }
-
-
-
-@media (prefers-color-scheme: dark){
-    body {
-       background: #000; 
-    }
-    a {
-        color: #fff;
-    }
-    h6 {
-        color: #fff;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
