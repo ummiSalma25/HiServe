@@ -13,8 +13,6 @@
 
 .text-justify {   text-align: justify;  }
 
-.dark {  background-color: black;  }
-
 
 
 /*navbar*/
@@ -151,29 +149,3 @@
         transform: translateY(0);
     }
 }
-
-
-@media (prefers-color-scheme: dark){
-    body {
-       background: #212529; 
-    }
-    a, p {
-        color: #fff;
-    }
-    h6 {
-        color: #fff;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
